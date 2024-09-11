@@ -14,7 +14,7 @@ import org.hibernate.annotations.Where;
 public class PaymentProvider extends BaseEntity {
     @NotNull
     @NotEmpty
-    private String code;
+    private String      code;
     private String name;
     private String logo;
 }
